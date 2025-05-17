@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Figma Land - Design and prototype your best products.">
+  <title>Figma Land</title>
+  <link rel="stylesheet" href="./css/utils.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/features.css">
+  <link rel="stylesheet" href="./css/mac.css">
+  <link rel="stylesheet" href="./css/cta-email.css">
+  <link rel="stylesheet" href="./css/partners.css">
+  <link rel="stylesheet" href="./css/testimonials.css">
+  <link rel="stylesheet" href="./css/pricing.css">
+  <link rel="stylesheet" href="./css/contactus.css">
+  <link rel="stylesheet" href="./css/footer.css">
+
+  <!-- Google Font -->
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="header-container">
+        <div class="header-background-container">
+          <img src="assets/images/main-back2.png" alt="hi">
+        </div>
+        <nav class="navbar" aria-label="Main Navigation">
+            <ul class="nav-left">
+                <li class="nav-link-container"><a href="#features" class="nav-link">Home</a></li>
+                <li class="nav-link-container"><a href="#features-video-container" class="nav-link">Product</a></li>
+                <li class="nav-link-container"><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li class="nav-link-container"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-link-container"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-center" aria-label="Figma Land Home">
+                <img src="assets/images/logo-light.png" alt="Figma Land Logo">
+            </div>
+            <ul class="nav-right">
+                <li class="nav-social-item">
+                    <a href="#" aria-label="Twitter">
+                        <svg width="34" height="28" viewBox="0 0 34 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M33.6852 3.68535C32.4604 4.21369 31.1276 4.59394 29.7547 4.74203C31.1801 3.89523 32.2475 2.55741 32.7566 0.979591C31.4191 1.77526 29.9538 2.3332 28.4258 2.62866C27.7872 1.94592 27.0148 1.40202 26.1568 1.03085C25.2987 0.659684 24.3735 0.469196 23.4386 0.471261C19.6561 0.471261 16.6142 3.53725 16.6142 7.29969C16.6142 7.82804 16.6782 8.35638 16.7823 8.86471C11.1186 8.56852 6.06733 5.86276 2.70915 1.72007C2.09725 2.76521 1.7766 3.95523 1.78055 5.16631C1.78055 7.53584 2.98533 9.6252 4.82252 10.854C3.73984 10.8114 2.6825 10.5138 1.73652 9.98544V10.0695C1.73652 13.3876 4.08204 16.1374 7.20807 16.7698C6.62112 16.9223 6.01732 17.0003 5.4109 17.002C4.96661 17.002 4.54634 16.958 4.12207 16.8979C4.98663 19.6037 7.50426 21.569 10.5022 21.633C8.15668 23.4702 5.21878 24.5509 2.02871 24.5509C1.45634 24.5509 0.927994 24.5309 0.379639 24.4668C3.4056 26.4081 6.99593 27.5288 10.8624 27.5288C23.4146 27.5288 30.283 17.1301 30.283 8.10421C30.283 7.80802 30.283 7.51183 30.263 7.21564C31.5919 6.24301 32.7566 5.03822 33.6852 3.68535Z" fill="white"/></svg>                            
+                    </a>
+                </li>
+                <li class="nav-social-item">
+                    <a href="#" aria-label="Facebook">
+                        <svg width="33" height="34" viewBox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30.7506 0.989609H1.29145C0.582991 0.989609 0.0106201 1.56198 0.0106201 2.27044V31.7296C0.0106201 32.438 0.582991 33.0104 1.29145 33.0104H30.7506C31.459 33.0104 32.0314 32.438 32.0314 31.7296V2.27044C32.0314 1.56198 31.459 0.989609 30.7506 0.989609ZM27.0522 10.3357H24.4945C22.4892 10.3357 22.101 11.2883 22.101 12.6892V15.7752H26.8881L26.2637 20.6063H22.101V33.0104H17.1097V20.6103H12.935V15.7752H17.1097V12.2129C17.1097 8.07821 19.6354 5.82475 23.3257 5.82475C25.0949 5.82475 26.6119 5.95683 27.0562 6.01687V10.3357H27.0522Z" fill="white"/></svg>                            
+                    </a>
+                </li>
+                <li class="nav-social-item">
+                    <a href="#" aria-label="Linkedin">
+                        <svg width="33" height="34" viewBox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M30.7384 0.989609H1.27924C0.570784 0.989609 -0.00158691 1.56198 -0.00158691 2.27044V31.7296C-0.00158691 32.438 0.570784 33.0104 1.27924 33.0104H30.7384C31.4468 33.0104 32.0192 32.438 32.0192 31.7296V2.27044C32.0192 1.56198 31.4468 0.989609 30.7384 0.989609ZM9.49658 28.2753H4.74549V12.9934H9.49658V28.2753ZM7.12304 10.904C6.57839 10.904 6.04597 10.7425 5.59311 10.4399C5.14026 10.1374 4.7873 9.70727 4.57887 9.20408C4.37044 8.70089 4.31591 8.1472 4.42216 7.61302C4.52842 7.07884 4.79069 6.58816 5.17582 6.20303C5.56094 5.81791 6.05162 5.55564 6.5858 5.44938C7.11998 5.34313 7.67368 5.39766 8.17686 5.60609C8.68005 5.81452 9.11014 6.16748 9.41273 6.62033C9.71532 7.07319 9.87682 7.60561 9.87682 8.15025C9.87282 9.67124 8.64002 10.904 7.12304 10.904ZM27.2841 28.2753H22.537V20.8425C22.537 19.0693 22.505 16.7919 20.0674 16.7919C17.5978 16.7919 17.2176 18.7211 17.2176 20.7144V28.2753H12.4745V12.9934H17.0295V15.0828H17.0935C17.7259 13.882 19.2749 12.6132 21.5884 12.6132C26.3995 12.6132 27.2841 15.7792 27.2841 19.8939V28.2753Z" fill="white"/></svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="hero-container">
+            <div class="hero-text-container">
+                <h1 class="hero-title">The best products start with Figma</h1>
+                <h4 class="hero-description">Most calendars are designed for teams. Slate is designed for freelancers</h4>
+            </div>
+            <div class="primary-button-container">
+                <button class="butn" type="button">Try For Free</button>
+            </div>
+        </div>
+        
+    </header>
+
+    <main>
+        
+        <section class="features-section" id="features">  
+            <div class="features-text section-intro-container centered-text">
+                <h2 class="secondary-heading section-heading">Features</h2>
+                <h4 class="section-intro-description section-description">Most calendars are designed for teams. Slate is designed for freelancers</h4>
+            </div>
+            <div class="features-cards">
+                <div class="feature-card">
+<svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.6042 7.625C25.3117 7.625 28.8673 9.0978 31.4889 11.7194C34.1105 14.341 35.5833 17.8967 35.5833 21.6042C35.5833 24.9846 34.3888 28.0854 32.3808 30.5H53.375V53.375H30.5V32.3808C28.0854 34.3888 24.9846 35.5833 21.6042 35.5833C17.8967 35.5833 14.341 34.1105 11.7194 31.4889C9.0978 28.8673 7.625 25.3117 7.625 21.6042C7.625 17.8967 9.0978 14.341 11.7194 11.7194C14.341 9.0978 17.8967 7.625 21.6042 7.625Z" fill="#2091F9"/>
+</svg>
+                    <h3 class="tertiary-heading centered-text">OpenType features Variable fonts</h3>
+                    <p class="small-para-description centered-text">Slate helps you see how many more days you need to work to reach your financial goal.</p>  
+                </div>
+                <div class="feature-card">
+                    <svg width="57" height="56" viewBox="0 0 57 56" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.2498 48.65C27.4031 47.0167 26.4931 42.5134 24.3931 39.6667C22.3165 36.75 19.4465 34.7434 16.5531 32.8067C14.4887 31.5055 12.6455 29.8829 11.0931 28C10.4398 27.23 9.10979 25.8067 10.4631 25.5267C11.8398 25.2467 14.2198 26.6 15.4331 27.1134C17.5565 28 19.6565 29.0267 21.6165 30.24L23.9731 26.2734C20.3331 23.87 15.6665 21.7467 11.3265 21.1167C8.85313 20.7434 6.23979 21.2567 5.39979 23.94C4.65313 26.25 5.84313 28.5834 7.19646 30.4034C10.3931 34.6734 15.3631 36.7267 19.0731 40.4134C19.8665 41.1834 20.8231 42.0934 21.2898 43.1667C21.7798 44.1934 21.6631 44.2634 20.5665 44.2634C17.6731 44.2634 14.0565 42 11.6998 40.5067L9.34313 44.4734C12.9131 46.6667 18.8865 50.0967 23.2498 48.65ZM49.1265 12.25C49.6398 11.7367 49.6398 10.8967 49.1265 10.4067L46.0931 7.37337C45.8487 7.13783 45.5225 7.00623 45.1831 7.00623C44.8437 7.00623 44.5175 7.13783 44.2731 7.37337L41.8931 9.75337L46.7465 14.6067L49.1265 12.25ZM26.1665 25.48V30.3334H31.0198L45.3698 15.9834L40.5165 11.13L26.1665 25.48Z" fill="#2091F9"/></svg>
+                    <h3 class="tertiary-heading centered-text">Design with real data</h3>
+                    <p class="small-para-description centered-text">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </div>
+                <div class="feature-card">
+                    <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M52.638 11.7679L49.2321 8.36209C48.2917 7.37084 46.6396 7.37084 45.6484 8.36209L22.875 31.1354L29.8646 38.125L52.638 15.3517C53.6292 14.3604 53.6292 12.7083 52.638 11.7679ZM17.7917 35.5833C15.7694 35.5833 13.83 36.3867 12.4 37.8167C10.9701 39.2466 10.1667 41.1861 10.1667 43.2083C10.1667 46.5379 7.21837 48.2917 5.08337 48.2917C7.42171 51.3925 11.4375 53.375 15.25 53.375C17.9464 53.375 20.5323 52.3039 22.439 50.3973C24.3456 48.4906 25.4167 45.9047 25.4167 43.2083C25.4167 41.1861 24.6134 39.2466 23.1834 37.8167C21.7534 36.3867 19.814 35.5833 17.7917 35.5833Z" fill="#2091F9"/></svg>
+                    <h3 class="tertiary-heading centered-text">Fastest way to <br>take action</h3>
+                    <p class="small-para-description centered-text">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </div>
+            </div>
+            <div class="features-video-container" id="features-video-container">
+             
+                <video class="video-element" src="assets/videos/sample.mp4" poster="assets/images/video.jpg" playsinline>
+                    <source src="assets/videos/sample.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+
+               
+                <div class="video-play-button">
+                    <svg class="play-circle" width="188" height="188" viewBox="0 0 188 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="93.8293" cy="94" r="93.6985" fill="#2091F9" />
+                    </svg>
+                    <svg class="play-icon" width="40" height="48" viewBox="0 0 40 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.401123 0.59375L39.4421 24.0184L0.401123 47.443V0.59375Z" fill="white" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+
+ <section class="container">
+      <div class="mac">
+        <div class="mac-content">
+          <div class="mac-content-text">
+            <h1>
+              Fastest way to <br />
+              organize
+            </h1>
+            <p>
+              Most calendars are designed for teams. Slate is designed for
+              freelancers
+            </p>
+          </div>
+          <button class="btn" >Try For Free</button>
+        </div>
+        <div class="mac-image">
+          <img
+            src="/assets/images/laptop.png"
+            alt="Slate calendar application interface on a laptop"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section-container" >
+      <div class="cta-container">
+        <div class="cta-image">
+          <img src="/assets/images/mail.png" alt="Mail illustration" />
+        </div>
+        <div class="cta-content">
+          <div class="cta-content-text">
+            <h3>At your fingertips</h3>
+            <h2>Lightning fast prototyping</h2>
+          </div>
+          <div class="action">
+            <h3>Subscribe to our Newsletter</h3>
+            <p>Available exclusively on Figmaland</p>
+            <div class="cta-form">
+              <input type="email" placeholder="Your Email" />
+              <button >Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- Partners Section -->
+<section class="partners-section" id="about">
+  <div class="partners-container">
+   
+<div class="text-content">
+
+   <h2 >Partners</h2>
+    <h4>
+      Most calendars are designed for teams.
+      Slate is designed for freelancers
+    </h4>
+</div>
+
+ <div class="parent-partner">
+ <div class="partners-logos1">
+      <div class="google">
+        <span class="partner-label">Client Name</span>
+        <img src="/assets/images/google.png" alt="Google" />
+      </div>
+      <div class="amazon">
+        <span class="partner-label">Client Name</span>
+        <img src="/assets/images/amazon.png" alt="Amazon" />
+      </div>
+      <div class="microsoft">
+        <span class="partner-label">Client Name</span>
+        <img src="/assets/images/microsoft.png" alt="Microsoft" />
+      </div>
+      <div class="uber">
+        <span class="partner-label">Client Name</span>
+        <img src="/assets/images/uber.png" alt="Uber" />
+      </div>
+     
+    </div>
+
+    <div class="partners-logos2">
+       <div class="dropbox">
+        <span class="partner-label">Client Name</span>
+        <img src="/assets/images/dropbox.png" alt="Dropbox" />
+      </div>
+      <div class="google">
+        <span class="partner-label">Client Name</span>
+        <img src="/assets/images/google.png" alt="Google" />
+      </div>
+      <div class="uber">
+        <span class="partner-label">Client Name</span>
+        <img src="/assets/images/uber.png" alt="Uber" />
+      </div>
+      <div class="amazon">
+        <span class="partner-label">Client Name</span>
+        <img src="/assets/images/amazon.png" alt="Amazon" />
+      </div>
+
+    </div>
+
+ </div>
+   
+    <button class="btn">Try For Free</button>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials-section" id="testimonials">
+  
+    <h2 class="testimonials-title">Testimonials</h2>
+    <div class="testimonial-slider">
+      <div class="testimonial-slide active">
+        <img class="testimonial-logo" src="/assets/images/ibm.png" alt="IBM Logo" />
+        <h4 class="testimonial-text">
+          Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
+        </h4>
+        <div class="testimonial-user">
+          <img class="testimonial-avatar" src="/assets/images/user.png" alt="John Doe" />
+          <div>
+            <h6 >John Doe</h6>
+            <p class="testimonial-user-role">UI designer</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-slide">
+        <img class="testimonial-logo" src="/assets/images/ibm.png" alt="IBM Logo" />
+        <h4 class="testimonial-text">
+         Most reliable and efficient tool erver. Highly recommended!
+        </h4>
+        <div class="testimonial-user">
+          <img class="testimonial-avatar" src="/assets/images/user.png" alt="Jane Smith" />
+          <div>
+            <h6 >Jane Ward</h6>
+            <div class="testimonial-user-role">Tester</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-slide">
+        <img class="testimonial-logo" src="/assets/images/ibm.png" alt="IBM Logo" />
+        <h4 class="testimonial-text">
+          Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.
+        </h4>
+        <div class="testimonial-user">
+          <img class="testimonial-avatar" src="/assets/images/user.png" alt="John Doe" />
+          <div>
+            <h6 >John Doe</h6>
+            <p class="testimonial-user-role">UI designer</p>
+          </div>
+        </div>
+      </div>
+      <!-- Add more slides as needed -->
+    </div>
+    <div class="testimonial-dots">
+      <span class="testimonial-dot active"></span>
+      <span class="testimonial-dot"></span>
+      <span class="testimonial-dot"></span>
+    </div>
+  
+</section>
+
+<!-- Pricing Section -->
+<section class="pricing-section" id="pricing">
+  <div class="pricing-header">
+    <h2>Pricing</h2>
+    <h4>Most calendars are designed for teams.<br>Slate is designed for freelancers</h4>
+  </div>
+  <div class="pricing-cards">
+    <div class="pricing-card">
+        <div class="pricing-card-heading">
+      <h3>FREE</h3>
+      <h6>Organize across all apps by hand</h6>
+
+        </div>
+
+      <div class="pricing-price"><h1>0</h1><span class="price-currency"><h3>$</h3><h6>Per Month</h6></span></div>
+      <div class="ul-container">
+<ul>
+        <li>Pricing Feature</li>
+        <li>Pricing Feature</li>
+        <li>Pricing Feature</li>
+        <li>Pricing Feature</li>
+        <li>Pricing Feature</li>
+      </ul>
+      </div>
+
+      
+      <button class="btn">Order Now</button>
+    </div>
+    <div class="pricing-card--highlight">
+     <div class="pricing-card-heading"> 
+      <h3>STANDARD</h3>
+      <h6 >Organize across all apps by hand</h6></div>
+      <div class="pricing-price"><h1>10</h1><span class="price-currency"><h3>$</h3><h6>Per Month</h6></span></div>
+      <div class="ul-container">
+<ul>
+        <li>Pricing Feature</li>
+        <li>Pricing Feature</li>
+        <li>Pricing Feature</li>
+        <li>Pricing Feature</li>
+        <li>Pricing Feature</li>
+      </ul>
+      </div>
+      <button class="btn">Order Now</button>
+    </div>
+    <div class="pricing-card">
+       <div class="pricing-card-heading">
+        <h3>BUSINESS</h3>
+      <h6>Organize across all apps by hand</h6>
+       </div>
+      
+      <div class="pricing-price"><h1>99</h1><span class="price-currency"><h3>$</h3><h6>Per Month</h6></span></div>
+      <div class="ul-container">
+<ul>
+        <li>Pricing Feature</li>
+        <li>Pricing Feature</li>
+        <li>Pricing Feature</li>
+        <li>Pricing Feature</li>
+        <li>Pricing Feature</li>
+      </ul>
+      </div>
+
+      
+      <button class="btn">Order Now</button>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+  
+<div class="main-contact">
+  <div class="contact-header">
+    <h2>Contact Us</h2>
+    <h4>Most calendars are designed for teams.<br>Slate is designed for freelancers</h4>
+  </div>
+ <div class="core-contact">
+    <form class="contact-form" id="contactForm" autocomplete="off">
+      <h3>Contact Us</h3>
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="9" required></textarea>
+      <button type="submit" >Send</button>
+    </form>
+    <div class="contact-info">
+      <div class="contact-details">
+             <div class="location1">
+              <!-- location sg -->
+<svg width="26" height="33" viewBox="0 0 26 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2_422)">
+<path d="M12.9998 19.884C16.4927 19.884 19.3332 17.0435 19.3332 13.5506C19.3332 10.0578 16.4927 7.21729 12.9998 7.21729C9.507 7.21729 6.6665 10.0578 6.6665 13.5506C6.6665 17.0435 9.507 19.884 12.9998 19.884ZM12.9998 10.384C14.7463 10.384 16.1665 11.8042 16.1665 13.5506C16.1665 15.297 14.7463 16.7173 12.9998 16.7173C11.2534 16.7173 9.83317 15.297 9.83317 13.5506C9.83317 11.8042 11.2534 10.384 12.9998 10.384Z" fill="#2091F9"/>
+<path d="M11.7487 32.256C12.0166 32.4473 12.3377 32.5502 12.667 32.5502C12.9963 32.5502 13.3173 32.4473 13.5853 32.256C14.0667 31.9155 25.3796 23.7471 25.3337 13.5505C25.3337 6.56637 19.6511 0.883789 12.667 0.883789C5.68291 0.883789 0.000322499 6.56637 0.000322499 13.5425C-0.0455942 23.7471 11.2673 31.9155 11.7487 32.256ZM12.667 4.05046C17.9062 4.05046 22.167 8.31121 22.167 13.5584C22.2002 20.5852 15.2193 26.8948 12.667 28.9642C10.1162 26.8932 3.13374 20.582 3.16699 13.5505C3.16699 8.31121 7.42774 4.05046 12.667 4.05046Z" fill="#2091F9"/>
+</g>
+<defs>
+<clipPath id="clip0_2_422">
+<rect width="26" height="32" fill="white" transform="translate(0 0.717285)"/>
+</clipPath>
+</defs>
+</svg>
+<h6 >6386 Spring St undefined Anchorage,
+Georgia 12473 United States</h6>
+
+        </div>
+        <div class="location2">
+          <!-- mobile svg -->
+<svg width="22" height="35" viewBox="0 0 22 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2_428)">
+<path d="M16.5418 1.17578H4.87512C2.45429 1.17578 0.500122 3.12995 0.500122 5.55078V28.8841C0.500122 31.3049 2.45429 33.2591 4.87512 33.2591H16.5418C18.9626 33.2591 20.9168 31.3049 20.9168 28.8841V5.55078C20.9168 3.12995 18.9626 1.17578 16.5418 1.17578ZM13.6251 30.3424H7.79179V28.8841H13.6251V30.3424ZM18.3647 25.9674H3.05221V5.55078H18.3647V25.9674Z" fill="#2091F9"/>
+</g>
+<defs>
+<clipPath id="clip0_2_428">
+<rect width="21" height="34" fill="white" transform="translate(0.5 0.217285)"/>
+</clipPath>
+</defs>
+</svg>
+<h6>(843)-555-0130</h6>
+
+        </div>
+        <div class="location3">
+          <!-- message svg -->
+          <svg width="28" height="23" viewBox="0 0 28 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2_434)">
+<path d="M25.8125 0.904785H1.4375C0.918945 0.904785 0.5 1.32373 0.5 1.84229V20.5923C0.5 21.1108 0.918945 21.5298 1.4375 21.5298H25.8125C26.3311 21.5298 26.75 21.1108 26.75 20.5923V1.84229C26.75 1.32373 26.3311 0.904785 25.8125 0.904785ZM24.6406 4.15088V19.4204H2.60938V4.15088L1.80078 3.521L2.95215 2.0415L4.20605 3.01709H23.0469L24.3008 2.0415L25.4521 3.521L24.6406 4.15088ZM23.0469 3.01416L13.625 10.3384L4.20312 3.01416L2.94922 2.03857L1.79785 3.51807L2.60645 4.14795L12.6143 11.9292C12.9021 12.1528 13.2561 12.2742 13.6206 12.2742C13.9851 12.2742 14.3391 12.1528 14.627 11.9292L24.6406 4.15088L25.4492 3.521L24.2979 2.0415L23.0469 3.01416Z" fill="#2091F9"/>
+</g>
+<defs>
+<clipPath id="clip0_2_434">
+<rect width="27" height="22" fill="white" transform="translate(0.5 0.217285)"/>
+</clipPath>
+</defs>
+</svg>
+<h6>willie.jennings@example.com</h6>
+      </div>
+      </div>
+   
+     
+       
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019370663469!2d-122.41941518468153!3d37.77492977975906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808c7e8b0b2b%3A0x7e4c7e8b0b2b7e4c!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1680000000000!5m2!1sen!2sus"
+         ></iframe>
+     
+      <div class="contact-socials">
+        <svg width="41" height="42" viewBox="0 0 41 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M37.145 11.0808C35.9202 11.6091 34.5873 11.9894 33.2144 12.1375C34.6398 11.2907 35.7072 9.95287 36.2164 8.37505C34.8788 9.17072 33.4136 9.72866 31.8855 10.0241C31.2469 9.34138 30.4745 8.79748 29.6165 8.42631C28.7585 8.05514 27.8332 7.86465 26.8983 7.86672C23.1159 7.86672 20.0739 10.9327 20.0739 14.6951C20.0739 15.2235 20.1379 15.7518 20.242 16.2602C14.5783 15.964 9.52705 13.2582 6.16887 9.11553C5.55697 10.1607 5.23632 11.3507 5.24026 12.5618C5.24026 14.9313 6.44505 17.0207 8.28224 18.2495C7.19955 18.2068 6.14222 17.9092 5.19624 17.3809V17.4649C5.19624 20.7831 7.54176 23.5329 10.6678 24.1653C10.0808 24.3178 9.47704 24.3957 8.87062 24.3974C8.42633 24.3974 8.00606 24.3534 7.58178 24.2934C8.44634 26.9991 10.964 28.9644 13.9619 29.0284C11.6164 30.8656 8.67849 31.9463 5.48843 31.9463C4.91605 31.9463 4.38771 31.9263 3.83936 31.8623C6.86532 33.8035 10.4556 34.9243 14.3222 34.9243C26.8743 34.9243 33.7428 24.5255 33.7428 15.4997C33.7428 15.2035 33.7428 14.9073 33.7227 14.6111C35.0516 13.6385 36.2164 12.4337 37.145 11.0808Z" fill="#2091F9"/>
+</svg>
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M36.2103 5.38525H6.75117C6.04271 5.38525 5.47034 5.95763 5.47034 6.66609V36.1252C5.47034 36.8337 6.04271 37.406 6.75117 37.406H36.2103C36.9187 37.406 37.4911 36.8337 37.4911 36.1252V6.66609C37.4911 5.95763 36.9187 5.38525 36.2103 5.38525ZM32.5119 14.7313H29.9542C27.9489 14.7313 27.5607 15.6839 27.5607 17.0848V20.1708H32.3478L31.7234 25.002H27.5607V37.406H22.5694V25.006H18.3947V20.1708H22.5694V16.6085C22.5694 12.4739 25.0951 10.2204 28.7855 10.2204C30.5546 10.2204 32.0716 10.3525 32.5159 10.4125V14.7313H32.5119Z" fill="#2091F9"/>
+</svg>
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M36.1981 5.38525H6.73902C6.03056 5.38525 5.45819 5.95763 5.45819 6.66609V36.1252C5.45819 36.8337 6.03056 37.406 6.73902 37.406H36.1981C36.9066 37.406 37.479 36.8337 37.479 36.1252V6.66609C37.479 5.95763 36.9066 5.38525 36.1981 5.38525ZM14.9564 32.671H10.2053V17.389H14.9564V32.671ZM12.5828 15.2997C12.0382 15.2997 11.5057 15.1382 11.0529 14.8356C10.6 14.533 10.2471 14.1029 10.0386 13.5997C9.83022 13.0965 9.77568 12.5428 9.88194 12.0087C9.9882 11.4745 10.2505 10.9838 10.6356 10.5987C11.0207 10.2136 11.5114 9.95128 12.0456 9.84503C12.5798 9.73877 13.1335 9.7933 13.6366 10.0017C14.1398 10.2102 14.5699 10.5631 14.8725 11.016C15.1751 11.4688 15.3366 12.0013 15.3366 12.5459C15.3326 14.0669 14.0998 15.2997 12.5828 15.2997ZM32.7439 32.671H27.9968V25.2381C27.9968 23.465 27.9648 21.1875 25.5272 21.1875C23.0576 21.1875 22.6774 23.1168 22.6774 25.1101V32.671H17.9343V17.389H22.4892V19.4784H22.5533C23.1857 18.2776 24.7347 17.0088 27.0482 17.0088C31.8593 17.0088 32.7439 20.1748 32.7439 24.2895V32.671Z" fill="#2091F9"/>
+</svg>
+
+
+      </div>
+    </div>
+  
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <div class="modal-message">Your query sent successfully</div>
+    </div>
+ </div>
+  </div>
+
+</div>
+</section>
+
+        </main>
+ 
+
+
+<!-- Footer Section -->
+<footer class="footer-section">
+  <div class="footer-content">
+    <div class="footer-columns">
+      <div class="footer-col-1">
+        <h3>Pages</h3>
+        <ul class="footer-list">
+          <li>Home</li>
+          <li>Features</li>
+          <li>Partners</li>
+          <li>Pricing</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="footer-col-2">
+        <h3>Tomothy</h3>
+        <ul class="footer-list">
+          <li>Eleanor Edwards</li>
+          <li>Ted Robertson</li>
+          <li>Annette Russell</li>
+          <li>Jennie Mckinney</li>
+          <li>Gloria Richards</li>
+        </ul>
+      </div>
+      <div class="footer-col-2">
+        <h3>Jane Black</h3>
+        <ul class="footer-list">
+          <li>Philip Jones</li>
+          <li>Product</li>
+          <li>Colleen Russell</li>
+          <li>Marvin Hawkins</li>
+          <li>Bruce Simmmons</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-contact">
+      <div class="footer-contact-details">
+        <div class="c-helper">
+          
+         <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.5 27.1361C27.7282 27.1361 31.1667 23.6976 31.1667 19.4694C31.1667 15.2412 27.7282 11.8027 23.5 11.8027C19.2719 11.8027 15.8334 15.2412 15.8334 19.4694C15.8334 23.6976 19.2719 27.1361 23.5 27.1361ZM23.5 15.6361C25.6141 15.6361 27.3334 17.3553 27.3334 19.4694C27.3334 21.5835 25.6141 23.3027 23.5 23.3027C21.386 23.3027 19.6667 21.5835 19.6667 19.4694C19.6667 17.3553 21.386 15.6361 23.5 15.6361Z" fill="white"/>
+<path d="M22.3885 42.1126C22.7129 42.3442 23.1015 42.4688 23.5001 42.4688C23.8987 42.4688 24.2874 42.3442 24.6118 42.1126C25.1945 41.7005 38.889 31.8124 38.8335 19.4691C38.8335 11.0147 31.9545 4.13574 23.5001 4.13574C15.0457 4.13574 8.16679 11.0147 8.16679 19.4595C8.11121 31.8124 21.8058 41.7005 22.3885 42.1126ZM23.5001 7.96908C29.8424 7.96908 35.0001 13.1268 35.0001 19.4787C35.0404 27.9848 26.5898 35.6227 23.5001 38.1278C20.4124 35.6208 11.9599 27.981 12.0001 19.4691C12.0001 13.1268 17.1579 7.96908 23.5001 7.96908Z" fill="white"/>
+</svg>
+
+          7480 Mistwood Hollo
+        </div>
+        <div class="c-helper">
+          
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.8333 1.76074H12.1666C9.74579 1.76074 7.79163 3.71491 7.79163 6.13574V29.4691C7.79163 31.8899 9.74579 33.8441 12.1666 33.8441H23.8333C26.2541 33.8441 28.2083 31.8899 28.2083 29.4691V6.13574C28.2083 3.71491 26.2541 1.76074 23.8333 1.76074ZM20.9166 30.9274H15.0833V29.4691H20.9166V30.9274ZM25.6562 26.5524H10.3437V6.13574H25.6562V26.5524Z" fill="white"/>
+</svg>
+
+          (239) 555-0108
+        </div>
+        <div class="footer-socials">
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M37.645 10.4817C36.4202 11.01 35.0873 11.3903 33.7144 11.5384C35.1398 10.6916 36.2072 9.35375 36.7164 7.77592C35.3788 8.5716 33.9136 9.12954 32.3855 9.42499C31.7469 8.74226 30.9745 8.19836 30.1165 7.82719C29.2585 7.45602 28.3332 7.26553 27.3983 7.26759C23.6159 7.26759 20.5739 10.3336 20.5739 14.096C20.5739 14.6244 20.6379 15.1527 20.742 15.661C15.0783 15.3648 10.027 12.6591 6.66887 8.5164C6.05697 9.56154 5.73632 10.7516 5.74026 11.9626C5.74026 14.3322 6.94505 16.4215 8.78224 17.6503C7.69955 17.6077 6.64222 17.3101 5.69624 16.7818V16.8658C5.69624 20.184 8.04176 22.9338 11.1678 23.5662C10.5808 23.7186 9.97704 23.7966 9.37062 23.7983C8.92633 23.7983 8.50606 23.7543 8.08178 23.6943C8.94634 26.4 11.464 28.3653 14.4619 28.4293C12.1164 30.2665 9.17849 31.3472 5.98843 31.3472C5.41605 31.3472 4.88771 31.3272 4.33936 31.2632C7.36532 33.2044 10.9556 34.3252 14.8222 34.3252C27.3743 34.3252 34.2428 23.9264 34.2428 14.9005C34.2428 14.6044 34.2428 14.3082 34.2227 14.012C35.5516 13.0393 36.7164 11.8346 37.645 10.4817Z" fill="white"/>
+</svg>
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M35.7103 4.78516H6.25117C5.54271 4.78516 4.97034 5.35753 4.97034 6.06599V35.5251C4.97034 36.2336 5.54271 36.8059 6.25117 36.8059H35.7103C36.4187 36.8059 36.9911 36.2336 36.9911 35.5251V6.06599C36.9911 5.35753 36.4187 4.78516 35.7103 4.78516ZM32.0119 14.1312H29.4542C27.4489 14.1312 27.0607 15.0838 27.0607 16.4847V19.5708H31.8478L31.2234 24.4019H27.0607V36.8059H22.0694V24.4059H17.8947V19.5708H22.0694V16.0084C22.0694 11.8738 24.5951 9.62029 28.2855 9.62029C30.0546 9.62029 31.5716 9.75238 32.0159 9.81242V14.1312H32.0119Z" fill="white"/>
+</svg>
+<svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M35.6981 4.78516H6.23896C5.5305 4.78516 4.95813 5.35753 4.95813 6.06599V35.5251C4.95813 36.2336 5.5305 36.8059 6.23896 36.8059H35.6981C36.4065 36.8059 36.9789 36.2336 36.9789 35.5251V6.06599C36.9789 5.35753 36.4065 4.78516 35.6981 4.78516ZM14.4563 32.0709H9.70521V16.7889H14.4563V32.0709ZM12.0828 14.6996C11.5381 14.6996 11.0057 14.5381 10.5528 14.2355C10.1 13.9329 9.74701 13.5028 9.53859 12.9996C9.33016 12.4964 9.27562 11.9427 9.38188 11.4086C9.48813 10.8744 9.75041 10.3837 10.1355 9.99858C10.5207 9.61346 11.0113 9.35118 11.5455 9.24493C12.0797 9.13867 12.6334 9.19321 13.1366 9.40164C13.6398 9.61006 14.0699 9.96302 14.3724 10.4159C14.675 10.8687 14.8365 11.4012 14.8365 11.9458C14.8325 13.4668 13.5997 14.6996 12.0828 14.6996ZM32.2438 32.0709H27.4968V24.638C27.4968 22.8649 27.4647 20.5874 25.0272 20.5874C22.5576 20.5874 22.1773 22.5167 22.1773 24.51V32.0709H17.4342V16.7889H21.9892V18.8783H22.0532C22.6856 17.6775 24.2346 16.4087 26.5481 16.4087C31.3593 16.4087 32.2438 19.5748 32.2438 23.6894V32.0709Z" fill="white"/>
+</svg>
+
+      </div>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+</body>
+
+<script src="assets/js/script.js"></script>
+</html>

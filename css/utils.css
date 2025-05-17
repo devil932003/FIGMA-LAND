@@ -1,0 +1,93 @@
+
+@media (max-width: 1200px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+  .footer-columns {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+  .footer-contact {
+    align-items: center;
+  }
+}
+
+.btn,
+button,
+.contact-form button,
+.cta-form button,
+.pricing-card button,
+.pricing-card--highlight button {
+  transition: 
+    background 0.2s,
+    color 0.2s,
+    box-shadow 0.2s,
+    transform 0.15s;
+}
+
+.btn:hover,
+button:hover,
+.contact-form button:hover,
+.cta-form button:hover,
+.pricing-card button:hover,
+.pricing-card--highlight button:hover {
+  background: #0066cc !important;
+  color: #fff !important;
+  box-shadow: 0 4px 24px rgba(32, 145, 249, 0.15);
+  transform: translateY(-2px) scale(1.03);
+}
+
+.pricing-card--highlight button:hover {
+  background: #e5e7eb !important;
+  color: #2091f9 !important;
+}
+
+
+.feature-card {
+  transition: 
+    box-shadow 0.2s,
+    transform 0.15s,
+    border-color 0.2s;
+  border: 1px solid transparent;
+}
+.feature-card:hover {
+  box-shadow: 0 8px 32px rgba(32, 145, 249, 0.12);
+  border-color: #2091f9;
+  transform: translateY(-4px) scale(1.03);
+}
+
+
+.pricing-card,
+.pricing-card--highlight {
+  transition: 
+    box-shadow 0.2s,
+    transform 0.15s,
+    border-color 0.2s;
+  border: 1px solid transparent;
+}
+.pricing-card:hover,
+.pricing-card--highlight:hover {
+  box-shadow: 0 8px 32px rgba(32, 145, 249, 0.15);
+  border-color: #2091f9;
+  transform: translateY(-4px) scale(1.03);
+}
+
+
+.nav-link,
+.navbar a {
+  display: inline-block;
+  transition: color 0.2s, background 0.2s, opacity 0.2s, transform 0.15s;
+}
+
+.nav-link:hover,
+.navbar a:hover {
+  color: #2091f9;
+  opacity: 0.85;
+  background: rgba(32, 145, 249, 0.08);
+  border-radius: 8px;
+  transform: translateY(-4px) scale(1.03);
+}
+

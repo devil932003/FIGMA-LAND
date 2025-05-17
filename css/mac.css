@@ -1,0 +1,78 @@
+/* Mac Section */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  padding: 226px 82px;
+  gap: 10px;
+}
+
+.mac {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1241.3px;
+  height: auto;
+  gap: 50px;
+  padding: 43px 0;
+}
+
+.mac-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 530px;
+  height: auto;
+  gap: 60px;
+}
+
+.mac-content h1 {
+  width: auto;
+  max-width: 333px;
+  height: auto;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  padding: 10px 0;
+  gap: 10px;
+  margin-bottom: 7px;
+}
+
+
+
+.mac-content p {
+  font-size: 28px;
+  color: #374754;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  padding: 10px 0;
+  gap: 10px;
+}
+
+.mac-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 661.3px;
+  height: auto;
+  gap: 7.61px;
+  padding: 7.61px;
+}
+
+.mac-image img {
+  width: 100%;
+  max-width: 646.07px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
